@@ -18,7 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # git clone https://github.com/fw876/helloworld.git package/helloworld
-git clone https://github.com/kenzok8/small.git package/kenzok8-small
-git clone https://github.com/kenzok8/openwrt-packages.git package/kenzok8-packages
-git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
-git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
+git clone https://github.com/sbwml/luci-app-mosdns.git package/mosdns
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+git clone -b packages https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall

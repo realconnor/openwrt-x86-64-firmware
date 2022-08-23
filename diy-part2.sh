@@ -12,6 +12,5 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i '/pexcn.me\/daily\/gfwlist\/gfwlist.txt/a \cat \/etc\/chinadns-ng\/blacklist.txt >> \/tmp\/gfwlist.txt.tmp' package/luci-app-chinadns-ng/root/usr/share/chinadns-ng/chinadns-ng_update.sh
-sed -i '/pexcn.me\/daily\/chinalist\/chinalist.txt/a \cat \/etc\/chinadns-ng\/whitelist.txt >> \/tmp\/chinalist.txt.tmp' package/luci-app-chinadns-ng/root/usr/share/chinadns-ng/chinadns-ng_update.sh
+
 sed -i '/firewall.user/d' package/lean/default-settings/files/zzz-default-settings
